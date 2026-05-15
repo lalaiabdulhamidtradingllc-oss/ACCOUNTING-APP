@@ -1,14 +1,13 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/ACCOUNTING-APP/assets/favicon-HV1kWBx1.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>accounting-app</title>
-    <script type="module" crossorigin src="/ACCOUNTING-APP/assets/index-CKC-pnoO.js"></script>
-    <link rel="stylesheet" crossorigin href="/ACCOUNTING-APP/assets/index-C5Ft4u8T.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+@import "tailwindcss";
+
+@layer base {
+  body { background-color: #f8fafc; color: #1f2937; font-family: sans-serif; }
+  .card { background: white; border-radius: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); padding: 1.25rem; border: 1px solid #f3f4f6; }
+  .btn { padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 500; transition: all 0.2s; cursor: pointer; border: none; }
+  .btn-primary { background-color: #065f46; color: white; }
+  .btn-primary:hover { background-color: #064e3b; }
+  .btn-secondary { background-color: #f3f4f6; color: #374151; }
+  .btn-secondary:hover { background-color: #e5e7eb; }
+  .input { width: 100%; padding: 0.625rem; border: 1px solid #d1d5db; border-radius: 0.5rem; outline: none; font-size: 0.875rem; }
+  .input:focus { border-color: #059669; box-shadow: 0 0 0 3px rgba(5,150,105,0.1); }
+}
